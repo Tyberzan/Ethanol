@@ -1,0 +1,5 @@
+MHV1 = Menu horizontal V1
+PPE = Pourpquoi passé à l'etahnol
+CPE = Comment passe ton à l'ethanol
+EPC = L'ethanol prés de chez vous
+MHJPE = Menu Horizontal je passe a l'ethanol
