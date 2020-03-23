@@ -1,0 +1,101 @@
+
+/* MENU DEROULANT MARQUE DE VOITURE */
+
+/* Fait disparaitre les sous menus et règle leurs affichage */
+
+/* Régle le placement des li de de .sous */
+nav.menu {
+    width: 100%;
+    margin: 0 auto;
+    background-color: grey;
+    position: sticky;
+    top: 0px;
+}
+
+/* Enlève les point avant les ul de .sous */
+nav.menu ul{
+    list-style-type: none;
+}
+
+/* Règle tout les ul et li dans .menu */ 
+nav ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+
+/* Je sais pas trop sans une de ces ligne background du .menu s'affiche pas */
+nav.menu ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Règle la syntaxe des écriture à l'intérieur de .menu */
+nav.menu a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+/* Colore en orange quand on passe dessus avec une sous bar*/
+nav.menu a:hover{
+    color: orange;
+    border-bottom: 2px solid gold;
+}
+
+/* Fait disparaitre les sous menus et règle leurs affichage */
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Affiche les sous menus de .sous  */
+nav.menu > ul li:hover .sous{
+    display: block;
+}
+
+/* Régle le li de .sous*/
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+
+/* Régle la synthaxe dans .sous */
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+
+/* Régle la couleur de backgroug quand on passe la souris dans les sous menu de .sous */
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+
+/* Affiche la petite flèche à coté des item de .deroulant */
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
+
+/* FIN MENU DEROULANT MARQUE DE VOITURE */
+
+
+/* BOX VOITURE */
+
+.Box_Voiture{
+	border-width: 1px;
+	border-style: dotted;
+	border-color: black;
+}
+
+/* FIN BOX VOITURE*/

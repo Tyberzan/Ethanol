@@ -1,11 +1,48 @@
+<!--Creation de la page acaht qui affichera les voiture disponible selon les critère de sélection faite avec les menus déeroulant-->
+
 <!DOCTYPE html>
 <html>
 	<head>
 		<title>VERSION 1</title>
 		<meta charset="utf-8"/>
-		<link rel="stylesheet" href="Menu_Horizontal_V1.css"/>
+		<link rel="stylesheet" href="Page_Achat.css"/>
 	</head>
 	<body>
-		<h1>Ici on vend</h1>
+		<div id="titre_page_on_achete">
+			<h1>Ici on achete</h1>
+		</div>
+		<!--Le menu déroulant-->
+		<nav class="menu">
+  			<ul>
+  				<li><a href="Page_d'acceuil.html">Acceuil</a></li>
+    			<li class="deroulant"><a href="#">Marque</a>
+      				<ul class ="sous">
+        				<li><a href="#">Renault</a></li>
+        				<li><a href="#">Peugeot</a></li>
+      				</ul>
+    			</li>
+    			<li class="deroulant"><a href="#">Trier par &ensp;</a>
+      				<ul class="sous">
+        				<li><a href="#">Proximité</a></li>
+        				<li><a href="#">plus cher</a></li>
+        				<li><a href="#">moin cher</a></li>
+      				</ul>
+    			</li>
+    			<li><a href="#">Future onglet rechercher</a></li>
+  			</ul>
+		</nav>
+		<div class="Box_Voiture">
+			<h1>Modèle Marque</h1>
+			<p>-kilométrage
+			-Puissance
+			-Motorisation
+			-certifié oui ou non
+			-Prix
+			-Distance
+			+Slide photo
+			</p>
+			<!--contact le vendeur qui vend la voiture-->
+			<p><a href="Page_Vendeur.html">Contacter le vendeur</a></p>
+		</div>
 	</body>
 </html>
