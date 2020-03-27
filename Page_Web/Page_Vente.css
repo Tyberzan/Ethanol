@@ -1,0 +1,33 @@
+/* BOX PAGE VENTE */
+
+.BV{
+	padding:5px;
+	border-width: 1px;
+	border-style: dotted;
+	border-color: black;
+}
+
+/* FIN BOX PAGE VENTE */
+
+/* BOX DROP PAGE VENTE VOITURE */
+
+.BDPVV{
+	width:150px;
+	float:left
+	border-width: 1px;
+	border-style: dotted;
+	border-color: black;
+}
+
+/* FIN BOX DROP PAGE VENTE VOITURE */
+
+/* BOX DROP PAGE CARNET VENTE */
+
+.BDPCV{
+	margin-left:160px
+	border-width: 1px;
+	border-style: dotted;
+	border-color: black;
+}
+
+/* FIN BOX DROP PAGE CARNET VENTE */

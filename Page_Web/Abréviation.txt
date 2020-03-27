@@ -8,3 +8,6 @@ CMDP = Comfirmation de mot de pass
 TC = Titres connxion
 TFDN = Titre formulaire d'inscription
 FDN = Formulaire d'inscription
+BV = Box voiture
+BDPVV = Box drop photo voiture vente
+BDPCV = Box drop photo carnet d'entretien voiture
